@@ -1,3 +1,3 @@
 # Reference
 
-::: gwc_datalib.data_sources.blob_storage_source
+::: gwc_datalib.client.GWSDataClient

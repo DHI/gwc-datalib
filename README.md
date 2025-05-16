@@ -70,12 +70,14 @@ xr_data = dataset.to_xarray()
 ```
 gwc_datalib/
 ├── client.py                # Main client interface
-├── adapters/                # Per-repository adapters (Azure, Dataverse, ERDA)
+├── sources/                 # Per-repository adapters (Azure, Dataverse, ERDA)
 │   ├── azure_blob.py
 │   └── ...
+├── auth/
+│   └── ..
 ├── dataset.py               # Unified Dataset wrapper
 ├── utils/
-│   └── authentication.py
+│   └── logger.py
 ├── config.py                # Reads API endpoints and env vars
 ```
 
