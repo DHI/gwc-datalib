@@ -1,4 +1,4 @@
-site_name: my_library
+site_name: gwc_datalib
 
 theme: "material"
 
@@ -7,6 +7,6 @@ plugins:
     handlers:
       python:
         options:
-          show_source: false # change this if you prefer to be able to show the source code inside the docs
+          show_source: false 
           heading_level: 2
-          docstring_style: "numpy" # default is google
+          docstring_style: "numpy"

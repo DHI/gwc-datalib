@@ -1,4 +1,4 @@
-LIB = my_library
+LIB = gwc_datalib
 
 check: lint typecheck test doctest
 
